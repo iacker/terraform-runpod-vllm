@@ -1,0 +1,13 @@
+# Copy to terraform.tfvars and adjust. NEVER commit real keys.
+# Better: export TF_VAR_runpod_api_key from Vault (see README) instead of a file.
+
+# runpod_api_key  = "rp_xxx"   # prefer TF_VAR_runpod_api_key from Vault
+
+pod_name          = "tf-vllm"
+model             = "NousResearch/Meta-Llama-3.1-8B-Instruct"
+gpu_type_ids      = ["NVIDIA A40", "NVIDIA RTX A6000"]
+gpu_count         = 1
+container_disk_gb = 120
+max_model_len     = 16384
+vllm_image        = "vllm/vllm-openai:latest"
+max_cost_per_hr   = 0.80

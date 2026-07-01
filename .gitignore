@@ -1,0 +1,12 @@
+# Terraform state & vars (may contain secrets)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.auto.tfvars
+crash.log
+
+# Python
+__pycache__/
+*.pyc
