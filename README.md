@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.png" alt="terraform-runpod-vllm" width="320" />
+
 # terraform-runpod-vllm
 
 **Provisionnez un GPU RunPod et servez un LLM en vLLM (API compatible OpenAI) — en un `terraform apply`, sans brûler votre budget.**
